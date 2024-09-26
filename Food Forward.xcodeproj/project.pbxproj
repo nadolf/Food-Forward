@@ -11,6 +11,8 @@
 		BCEE99D02CA26B4E0093CA08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE99CF2CA26B4E0093CA08 /* ContentView.swift */; };
 		BCEE99D22CA26B4F0093CA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEE99D12CA26B4F0093CA08 /* Assets.xcassets */; };
 		BCEE99D52CA26B4F0093CA08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEE99D42CA26B4F0093CA08 /* Preview Assets.xcassets */; };
+		BCEE99E02CA26C430093CA08 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE99DF2CA26C430093CA08 /* SignInView.swift */; };
+		BCEE99E22CA26F260093CA08 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE99E12CA26F260093CA08 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BCEE99CF2CA26B4E0093CA08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCEE99D12CA26B4F0093CA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCEE99D42CA26B4F0093CA08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCEE99DF2CA26C430093CA08 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		BCEE99E12CA26F260093CA08 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,9 @@
 		BCEE99CC2CA26B4E0093CA08 /* Food Forward */ = {
 			isa = PBXGroup;
 			children = (
+				BCEE99DD2CA26BF30093CA08 /* Views */,
+				BCEE99DC2CA26BE80093CA08 /* ViewModels */,
+				BCEE99DB2CA26BC60093CA08 /* Models */,
 				BCEE99CD2CA26B4E0093CA08 /* Food_ForwardApp.swift */,
 				BCEE99CF2CA26B4E0093CA08 /* ContentView.swift */,
 				BCEE99D12CA26B4F0093CA08 /* Assets.xcassets */,
@@ -65,6 +72,37 @@
 				BCEE99D42CA26B4F0093CA08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCEE99DB2CA26BC60093CA08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCEE99DC2CA26BE80093CA08 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE99E12CA26F260093CA08 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BCEE99DD2CA26BF30093CA08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE99DE2CA26BFB0093CA08 /* Authorization */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCEE99DE2CA26BFB0093CA08 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE99DF2CA26C430093CA08 /* SignInView.swift */,
+			);
+			path = Authorization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEE99E22CA26F260093CA08 /* AuthViewModel.swift in Sources */,
+				BCEE99E02CA26C430093CA08 /* SignInView.swift in Sources */,
 				BCEE99D02CA26B4E0093CA08 /* ContentView.swift in Sources */,
 				BCEE99CE2CA26B4E0093CA08 /* Food_ForwardApp.swift in Sources */,
 			);
