@@ -11,7 +11,7 @@ import SwiftUI
 struct Food_ForwardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignInView()
         }
     }
 }

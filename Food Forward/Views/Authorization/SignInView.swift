@@ -9,10 +9,8 @@ struct SignInView: View {
                 Text("Welcome to Food Forward!").font(.title).bold()
                 
                 TextField("Email", text:$authViewModel.email)
-                    .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                     .frame(width: 300)
                 SecureField("Password", text:$authViewModel.password)
-                    .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                     .frame(width: 300)
                 
                 Button("Sign In"){
@@ -24,6 +22,7 @@ struct SignInView: View {
                 .background(Color.brown)
                 .foregroundColor(.white)
                 .cornerRadius(10)
+                .padding()
                 
                 HStack{
                     Text("Don't Have an Account?")

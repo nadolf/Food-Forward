@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2F68FD2CA737E20049B915 /* EntitySignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F68FC2CA737E20049B915 /* EntitySignUpView.swift */; };
+		BC2F68FF2CA737FD0049B915 /* IndividualSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F68FE2CA737FD0049B915 /* IndividualSignUpView.swift */; };
 		BCEE99CE2CA26B4E0093CA08 /* Food_ForwardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE99CD2CA26B4E0093CA08 /* Food_ForwardApp.swift */; };
 		BCEE99D02CA26B4E0093CA08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE99CF2CA26B4E0093CA08 /* ContentView.swift */; };
 		BCEE99D22CA26B4F0093CA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEE99D12CA26B4F0093CA08 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC2F68FC2CA737E20049B915 /* EntitySignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitySignUpView.swift; sourceTree = "<group>"; };
+		BC2F68FE2CA737FD0049B915 /* IndividualSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualSignUpView.swift; sourceTree = "<group>"; };
 		BCEE99CA2CA26B4E0093CA08 /* Food Forward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Forward.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEE99CD2CA26B4E0093CA08 /* Food_ForwardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_ForwardApp.swift; sourceTree = "<group>"; };
 		BCEE99CF2CA26B4E0093CA08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 			children = (
 				BCEE99DF2CA26C430093CA08 /* SignInView.swift */,
 				BCEE99E52CA5E99F0093CA08 /* CreateAccountView.swift */,
+				BC2F68FC2CA737E20049B915 /* EntitySignUpView.swift */,
+				BC2F68FE2CA737FD0049B915 /* IndividualSignUpView.swift */,
 			);
 			path = Authorization;
 			sourceTree = "<group>";
@@ -179,7 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEE99E22CA26F260093CA08 /* AuthViewModel.swift in Sources */,
+				BC2F68FD2CA737E20049B915 /* EntitySignUpView.swift in Sources */,
 				BCEE99E02CA26C430093CA08 /* SignInView.swift in Sources */,
+				BC2F68FF2CA737FD0049B915 /* IndividualSignUpView.swift in Sources */,
 				BCEE99D02CA26B4E0093CA08 /* ContentView.swift in Sources */,
 				BCEE99CE2CA26B4E0093CA08 /* Food_ForwardApp.swift in Sources */,
 				BCEE99E62CA5E99F0093CA08 /* CreateAccountView.swift in Sources */,
